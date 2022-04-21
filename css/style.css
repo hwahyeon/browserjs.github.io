@@ -2,6 +2,17 @@
     display: none;
 }
 
+html{
+    height:100%;
+  }
+
+body{
+    background-image: url("../img/5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 #clock{
     text-align: center; padding: 50px 50px;
@@ -12,13 +23,28 @@
 }
 
 #todo-form{
+
     text-align: center; padding: 30px 30px;
 }
 
+#todo-form input{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
+
+#todo-form input:hover{
+    border: 2px solid white;
+    background-color: skyblue;
+}
 
 #todo-list{
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    font-weight: bold;
 }
 
 #todo-list button{
@@ -49,5 +75,5 @@
     font-size: 18px;
     font-style: italic;
     text-align: center;
-    padding: 30px 30px;
+    padding: 100px 30px;
 }
