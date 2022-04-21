@@ -4,7 +4,7 @@
 
 
 #clock{
-    text-align: center;
+    text-align: center; padding: 50px 50px;
 }
 
 #greeting{
@@ -12,22 +12,42 @@
 }
 
 #todo-form{
-    text-align: center;
+    text-align: center; padding: 30px 30px;
 }
 
 
 #todo-list{
+    font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 
+#todo-list button{
+    font-size: 15px;
+    outline: none;
+    border: 2px solid skyblue;
+    background-color: white;
+    color: skyblue;
+    padding: 5px;
+    margin: 2px 2px;
+    border-radius: 100px;
+}
+
+#todo-list button:hover{
+    color:white;
+    background-color: skyblue;
+}
 
 #weather{
-    font-style: italic;
+    font-size: 18px;
     text-align: center;
+    padding: 20px 20px;
 }
 
 
 #quote{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
     font-style: italic;
     text-align: center;
+    padding: 30px 30px;
 }
