@@ -1,6 +1,6 @@
 # 크롬 앱
 
-[시작하기](https://hwahyeon.github.io/browserjs.github.io/)
+[시작하기](https://hwahyeon.github.io/browserjs/)
 
 
 ## 기능 소개
