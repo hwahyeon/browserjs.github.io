@@ -1,17 +1,17 @@
 const images = [
     "0.png",
-    "1.png",
+    "1.jpg",
     "2.png",
     "3.png",
-    "4.png",
-    "5.png"    
+    "4.jpg",
+    "5.png",
+    "6.png"    
 ]
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const addressImage = `url("./img/${chosenImage}")`;
 document.body.style.backgroundImage = addressImage
-
 
 
 

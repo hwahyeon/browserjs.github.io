@@ -1,5 +1,3 @@
-
-
 const API_KEY = "e407444da2473e51df65d8d6e214f4eb"
 
 

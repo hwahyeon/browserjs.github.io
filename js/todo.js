@@ -33,19 +33,22 @@ function paintToDo(newTodo) {
 
 function handleToDoSubmit(event) {
     event.preventDefault();
-    const newTodo = toDoInput.value;
-    toDoInput.value = "";
-    const newTodoObj = {
-        text:newTodo,
-        id: Date.now(),
+    if (toDos.length < 7){
+        const newTodo = toDoInput.value;
+        toDoInput.value = "";
+        const newTodoObj = {
+            text:newTodo,
+            id: Date.now(),
+        }
+        toDos.push(newTodoObj);
+        paintToDo(newTodoObj);
+        saveToDos();
+    } else {
+        alert("Why not start with the ones that are already on the list?")
     }
-    toDos.push(newTodoObj);
-    paintToDo(newTodoObj);
-    saveToDos();
 }
 
 toDoForm.addEventListener("submit", handleToDoSubmit);
-
 
 const savedToDos = localStorage.getItem(TODOS_KEY)
 
