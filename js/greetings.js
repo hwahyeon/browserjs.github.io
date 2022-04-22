@@ -13,11 +13,21 @@ function onLoginSubmit(event) {
     paintGreeting(username);
 }
 
+const greetWorld = [
+    '안녕',
+    'Hi',
+    'Hello',
+    'Hola',
+    'Bonjour',
+    'Ola',
+    'Guten Tag',
+]
+
 function paintGreeting(username){
-    greeting.innerText = `Hello ${username}`;
+    const greetWorldRandom = greetWorld[Math.floor(Math.random() * greetWorld.length)]
+    greeting.innerText = `${greetWorldRandom} ${username} !`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
-
 
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 

@@ -26,6 +26,16 @@ body{
     border-radius: 10px;
 }
 
+#login-form input:hover{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+
 #login-form button{
     height: 55px;
     text-align: center;
@@ -33,6 +43,15 @@ body{
     border: 2px solid skyblue;
     border-radius: 10px;
     background-color: white;
+}
+
+#login-form button:hover{
+    height: 55px;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: skyblue;
 }
 
 #clock{
