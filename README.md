@@ -15,7 +15,7 @@
 00:00:00 형식의 시계를 제공합니다.
 
 ### To-Do list
-'해야 할 일 리스트'를 제공합니다. 최대 7개의 해야 할 일을 등록할 수 있습니다. 앱은 브라우저를 통해 해야할 일을 저장합니다. 브라우저를 초기화하지 않는다면, 앱은 해야 할 일을 기억합니다.
+'해야 할 일 리스트'를 제공합니다. 최대 7개의 해야 할 일을 등록할 수 있습니다. 앱은 브라우저(local storage)를 통해 해야할 일을 저장합니다. 브라우저를 초기화하지 않는다면, 앱은 해야 할 일을 기억합니다.
 
 <p align="center"><img src="https://blog.kakaocdn.net/dn/bEHK4n/btrz8uAhtGt/hBObKPUkWiglFkajlEbN31/img.gif"></p>
 </br>
