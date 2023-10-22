@@ -1,4 +1,4 @@
-# To do list Chrome app
+# 'To do list' Chrome app
 
 [Start](https://hwahyeon.github.io/browserjs/)
 
