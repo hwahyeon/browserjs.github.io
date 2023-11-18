@@ -1,6 +1,6 @@
 # 'To do list' Chrome app
 
-[Start](hwahyeon.github.io/js-browser/)
+[Start](https://hwahyeon.github.io/js-browser/)
 
 
 ## Feature Overview
