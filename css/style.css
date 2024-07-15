@@ -168,14 +168,14 @@ html {
 }
 
 @media (max-width: 768px) {
-    .split-box {
-        flex-direction: column;
-    }
-    .left,
-.right{
+  .split-box {
+    flex-direction: column;
+  }
+  .left,
+  .right {
     width: 100%;
-}
-.left .title{
-  font-size: 30px;
-}
+  }
+  .left .title {
+    font-size: 30px;
+  }
 }
